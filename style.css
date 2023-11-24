@@ -1,0 +1,341 @@
+
+.title {
+    display: none;
+}
+/* HTML */
+.html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+  
+  .article, .aside, .figcaption, .figure, .footer, .header, .hgroup, .main, .nav, .section {
+    display: block;
+  }
+  
+.body {
+    margin: 0;
+    font-family: var(--bs-font-sans-serif);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+
+}
+.collapse:not(.show) {
+    display: none;
+}
+.bg-white {
+    background-color: #fff!important;
+}
+.p-4 {
+    padding: 1.5rem!important;
+}
+.flex-column {
+    flex-direction: column!important;
+}
+.d-flex {
+    display: flex!important;
+}
+.text-dark {
+    color: #212529!important;
+}
+.mt-4 {
+    margin-top: 1.5rem!important;
+}
+  
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x)/ -2);
+    margin-left: calc(var(--bs-gutter-x)/ -2);
+}
+.justify-content-start {
+    justify-content: flex-start!important;
+}
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    z-index: 20;
+    opacity: 0.5;
+}
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.nav__burger {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+}
+
+.nav {
+    display: block;
+}
+.carousel {
+    position: relative;
+}
+
+.div {
+    display: block;
+}
+.header__text {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    text-align: center;
+    color: white;
+}
+.col-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+.formulaire {
+    width: 65%;
+    top: 65%;
+}
+.container {
+    margin-top: 15px;
+}
+.formulaire {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+.formulaire form {
+    background-color: rgba(255, 255, 255, 0.418);
+}
+
+.mx-0 {
+    margin-right: 0!important;
+    margin-left: 0!important;
+}
+.align-items-center {
+    align-items: center!important;
+}
+.d-flex {
+    display: flex!important;
+}
+.pe-3 {
+    padding-right: 1rem!important;
+}
+.p-1 {
+    padding: 0.25rem!important;
+}
+.btn--bg--color {
+    background-color: white;
+  }
+.m-1 {
+    margin: 0.25rem!important;
+}
+.w-100 {
+    width: 100%!important;
+}
+.dropdown-toggle {
+    white-space: nowrap;
+}
+.btn-outline-secondary {
+    color: #6c757d;
+    border-color: #6c757d;
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.mini__device__button {
+    display: none;
+}
+
+.validation {
+    background-color: #198754b7;
+    font-size: 1em;
+    font-weight: bold;
+  }
+.text-white {
+    color: #fff!important;
+}
+.py-3 {
+    padding-top: 1rem!important;
+    padding-bottom: 1rem!important;
+}
+.h-100 {
+    height: 100%!important;
+}
+.w-25 {
+    width: 25%!important;
+}
+.align-middle {
+    vertical-align: middle!important;
+}
+.formulaire form {
+    background-color: rgba(255, 255, 255, 0.418);
+}
+.mx-0 {
+    margin-right: 0!important;
+    margin-left: 0!important;
+}
+.align-items-center {
+    align-items: center!important;
+}
+.d-flex {
+    display: flex!important;
+}
+.button:not(:disabled) {
+    cursor: pointer;
+}
+
+
+.rounded-0 {
+    border-radius: 0!important;
+}
+.text-white {
+    color: #fff!important;
+}
+.py-2 {
+    padding-top: 0.5rem!important;
+    padding-bottom: 0.5rem!important;
+}
+.h-100 {
+    height: 100%!important;
+}
+.w-100 {
+    width: 100%!important;
+}
+.align-middle {
+    vertical-align: middle!important;
+}
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.div {
+    display: block;
+}
+.carousel-item {
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-right: -100%;
+    transition: transform .6s ease-in-out;
+}
+.slider__header {
+    height: 450px;
+}
+
+.w-100 {
+    width: 100%!important;
+}
+.d-block {
+    display: block!important;
+}
+img {
+    object-fit: cover;
+}
+.img  {
+    vertical-align: middle;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+feuille de style user-agent
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.carousel-inner::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.container {
+    margin-top: 15px;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x)/ -2);
+    margin-left: calc(var(--bs-gutter-x)/ -2);
+}
+
+
+
+
+
+.main {
+    display: block;
+}
+.hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+.footer {
+    display: block;
+}
